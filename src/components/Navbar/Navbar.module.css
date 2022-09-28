@@ -1,0 +1,52 @@
+.navbar,
+.navbar nav,
+.navCart {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+  height: var(--navbar-height);
+  padding: 15px 60px;
+  background-color: #cee5f2;
+}
+
+.logo {
+  width: 200px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.navbar nav {
+  gap: 20px;
+}
+
+.navLink {
+  font-weight: 800;
+  color: var(--title-color);
+}
+
+.navLink div {
+  width: 0;
+  height: 3px;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.navLink:hover div {
+  width: 100%;
+}
+
+.navLink.active {
+  color: var(--accent);
+}
+
+.navLink.active div {
+  width: 100%;
+}
+
+.navCart {
+  color: var(--accent);
+  cursor: pointer;
+}
