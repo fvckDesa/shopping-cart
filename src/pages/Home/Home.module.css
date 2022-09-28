@@ -1,0 +1,63 @@
+.homePage,
+.shopLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage {
+  width: 100%;
+  height: calc(100% - var(--navbar-height));
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 15px;
+}
+
+.title {
+  font-size: 60px;
+  line-height: 60.5px;
+  color: var(--title-color);
+}
+
+.subtitle {
+  font-size: 16px;
+  width: 75%;
+  color: var(--text-color);
+}
+
+.shopBtn {
+  width: fit-content;
+  height: 56px;
+  border: none;
+  border-radius: 56px;
+  font-size: 18px;
+  background-color: var(--accent);
+  color: #fff;
+  overflow: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.shopBtn:hover {
+  opacity: 0.6;
+}
+
+.shopLink {
+  gap: 8px;
+  height: 100%;
+  padding: 16px 20px;
+}
+
+.shopLink svg {
+  width: 24px;
+  height: 24px;
+}
+
+.illustration {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
