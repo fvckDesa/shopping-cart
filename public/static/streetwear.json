@@ -1,0 +1,625 @@
+{
+  "items": [
+    {
+      "productId": "52449",
+      "slug": "x-burberry-box-logo-hooded-sweatshirt-grey-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Box Logo Hooded Sweatshirt Grey (SS22)",
+      "description": "",
+      "variantsCount": 19,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 48800,
+        "max": 72200
+      },
+      "productAsset": {
+        "id": "138137",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/7745ddf8-bae5-4c0d-bbe7-69f855504c5c.__preview.png"
+      }
+    },
+    {
+      "productId": "52448",
+      "slug": "x-burberry-box-logo-hooded-sweatshirt-black-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Box Logo Hooded Sweatshirt Black (SS22)",
+      "description": "",
+      "variantsCount": 27,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 41100,
+        "max": 71200
+      },
+      "productAsset": {
+        "id": "138139",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/32ba88c3-a7d2-448c-a18d-09c0e06d3683.__preview.png"
+      }
+    },
+    {
+      "productId": "52450",
+      "slug": "x-burberry-box-logo-hooded-sweatshirt-pink-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Box Logo Hooded Sweatshirt Pink (SS22)",
+      "description": "",
+      "variantsCount": 13,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 39900,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "138138",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/70ef113f-dcee-4942-a36e-627fda6b417f.__preview.png"
+      }
+    },
+    {
+      "productId": "52447",
+      "slug": "x-burberry-box-logo-tee-black-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Box Logo Tee Black (SS22)",
+      "description": "",
+      "variantsCount": 28,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 25600,
+        "max": 41900
+      },
+      "productAsset": {
+        "id": "138092",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/4ac42c2d-a15f-4430-9544-3877c05af8ea.__preview.png"
+      }
+    },
+    {
+      "productId": "52446",
+      "slug": "x-burberry-box-logo-tee-white-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Box Logo Tee White (SS22)",
+      "description": "",
+      "variantsCount": 25,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 26400,
+        "max": 105300
+      },
+      "productAsset": {
+        "id": "138091",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/22272a54-532a-489c-8266-7e07fda9c562.__preview.png"
+      }
+    },
+    {
+      "productId": "49004",
+      "slug": "x-the-north-face-steep-tech-fleece-jacket-black-fw21",
+      "styleCode": "FW21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["The North Face"],
+      "productName": "x The North Face Steep Tech Fleece Jacket Black (FW21)",
+      "description": "",
+      "variantsCount": 1,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 41000,
+        "max": 41000
+      },
+      "productAsset": {
+        "id": "83392",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/0a954691-e277-45c9-a327-c944ae74b495.__preview.png"
+      }
+    },
+    {
+      "productId": "52455",
+      "slug": "x-burberry-denim-trucker-jacket-vintage-check-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Denim Trucker Jacket Vintage Check (SS22)",
+      "description": "",
+      "variantsCount": 4,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 111100,
+        "max": 234000
+      },
+      "productAsset": {
+        "id": "138143",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/6075e254-7ff8-4323-9b2b-8b010d374bd1.__preview.png"
+      }
+    },
+    {
+      "productId": "52458",
+      "slug": "burberry-shearling-collar-down-puffer-jacket-black-ss22",
+      "styleCode": "TBC",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["Burberry"],
+      "productName": "x Burberry® Shearling Collar Down Puffer Jacket Black (SS22)",
+      "description": "",
+      "variantsCount": 4,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 105300,
+        "max": 163800
+      },
+      "productAsset": {
+        "id": "138095",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/a9fa55ab-f4f1-41ba-8229-35a795092ac4.__preview.png"
+      }
+    },
+    {
+      "productId": "47011",
+      "slug": "shrek-tee-white-fw21",
+      "styleCode": "FW21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": [],
+      "productName": "Shrek Tee White (FW21)",
+      "description": "",
+      "variantsCount": 1,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 8900,
+        "max": 8900
+      },
+      "productAsset": {
+        "id": "52640",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/6da62698-58c7-4b2b-89b9-5fd86b111b3c.__preview.png"
+      }
+    },
+    {
+      "productId": "46940",
+      "slug": "arabic-logo-hooded-sweatshirt-heather-grey-fw21",
+      "styleCode": "FW21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": [],
+      "productName": "Arabic Logo Hooded Sweatshirt Heather Grey (FW21)",
+      "description": "",
+      "variantsCount": 1,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 29300,
+        "max": 29300
+      },
+      "productAsset": {
+        "id": "52878",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/83f12366-72dd-4874-a099-ccf4dd80e9f4.__preview.png"
+      }
+    },
+    {
+      "productId": "46435",
+      "slug": "x-air-jordan-x-fragment-t-shirt-white-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Travis Scott"],
+      "brandLineNames": ["Air Jordan", "Fragment"],
+      "productName": "x Air Jordan x Fragment T-Shirt White (SS21)",
+      "description": "",
+      "variantsCount": 1,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 19400,
+        "max": 19400
+      },
+      "productAsset": {
+        "id": "42099",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/062a4609-d433-41dc-8441-06cc08d9ef31.__preview.png"
+      }
+    },
+    {
+      "productId": "44808",
+      "slug": "x-emilio-pucci-box-logo-tee-heather-grey-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": [],
+      "productName": "x Emilio Pucci Box Logo Tee Heather Grey/Blue (SS21)",
+      "description": "",
+      "variantsCount": 6,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 12600,
+        "max": 29300
+      },
+      "productAsset": {
+        "id": "40027",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/de22fdfc-0e05-499d-9e0c-f07f5e1e8934.__preview.png"
+      }
+    },
+    {
+      "productId": "45169",
+      "slug": "x-kaws-chalk-box-logo-tee-white-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["KAWS"],
+      "productName": "x KAWS Chalk Box Logo Tee White (SS21)",
+      "description": "",
+      "variantsCount": 5,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 11600,
+        "max": 17600
+      },
+      "productAsset": {
+        "id": "40497",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/76954eb9-945c-4354-ad6c-5e8a6fc0fe41.__preview.png"
+      }
+    },
+    {
+      "productId": "45914",
+      "slug": "x-nike-spray-dot-t-shirt-white-ss21",
+      "styleCode": "CU2477-100",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Off-White"],
+      "brandLineNames": ["Nike"],
+      "productName": "x Nike Spray Dot T-shirt White (SS21)",
+      "description": "",
+      "variantsCount": 8,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 15100,
+        "max": 29300
+      },
+      "productAsset": {
+        "id": "41367",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/52df7154-6a4c-40dc-9564-f2c9081c27aa.__preview.png"
+      }
+    },
+    {
+      "productId": "45921",
+      "slug": "x-nike-spray-dot-t-shirt-black-ss21",
+      "styleCode": "CU2477-010",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Off-White"],
+      "brandLineNames": ["Nike"],
+      "productName": "x Nike Spray Dot T-Shirt Black (SS21)",
+      "description": "",
+      "variantsCount": 5,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 17600,
+        "max": 26400
+      },
+      "productAsset": {
+        "id": "41365",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/24db3ea2-7bf1-4368-a8d5-f59717893c8f.__preview.png"
+      }
+    },
+    {
+      "productId": "45773",
+      "slug": "x-juergen-teller-t-shirt-1-white-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Palace"],
+      "brandLineNames": ["Juergen Teller"],
+      "productName": "x Juergen Teller T-Shirt 1 White (SS21)",
+      "description": "",
+      "variantsCount": 2,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 6500,
+        "max": 9500
+      },
+      "productAsset": {
+        "id": "41210",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/663f90f0-87c1-475c-ae2c-f4f10d2c7800.__preview.png"
+      }
+    },
+    {
+      "productId": "45503",
+      "slug": "x-vans-duck-out-longsleeve-white-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Palace"],
+      "brandLineNames": ["Vans"],
+      "productName": "x Vans Duck Out Longsleeve White (SS21)",
+      "description": "",
+      "variantsCount": 1,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 10600,
+        "max": 10600
+      },
+      "productAsset": {
+        "id": "40855",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/b089d842-e572-4bf1-8d60-2614a22aa2c8.__preview.png"
+      }
+    },
+    {
+      "productId": "45167",
+      "slug": "x-kaws-chalk-box-logo-tee-light-pink-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": ["KAWS"],
+      "productName": "x KAWS Chalk Box Logo Tee Light Pink (SS21)",
+      "description": "",
+      "variantsCount": 5,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 10600,
+        "max": 41000
+      },
+      "productAsset": {
+        "id": "40496",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/232e03ec-200b-40c6-b632-e803e5b90c0b.__preview.png"
+      }
+    },
+    {
+      "productId": "44807",
+      "slug": "x-emilio-pucci-box-logo-tee-black-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": [],
+      "productName": "x Emilio Pucci Box Logo Tee Black/Black (SS21)",
+      "description": "",
+      "variantsCount": 8,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 17400,
+        "max": 29300
+      },
+      "productAsset": {
+        "id": "40028",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/9e5cc080-0e3b-4b21-8d2f-ab703c5fdc5f.__preview.png"
+      }
+    },
+    {
+      "productId": "44835",
+      "slug": "x-emilio-pucci-soccer-jersey-blue-ss21",
+      "styleCode": "SS21",
+      "categoryNames": ["Streetwear"],
+      "brandNames": ["Supreme"],
+      "brandLineNames": [],
+      "productName": "x Emilio Pucci Soccer Jersey Blue (SS21)",
+      "description": "",
+      "variantsCount": 2,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1, 2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 19900,
+        "max": 23400
+      },
+      "productAsset": {
+        "id": "40055",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/d57084ee-540e-4d5e-a07d-91480e640134.__preview.png"
+      }
+    }
+  ],
+  "totalItems": 1764
+}

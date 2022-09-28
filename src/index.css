@@ -1,5 +1,6 @@
 :root {
   --navbar-height: 75px;
+  --shop-navbar-height: 50px;
   --accent: #5a4ae3;
   --title-color: #3a3a3a;
   --text-color: #425466;
@@ -19,10 +20,6 @@ body,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 100vw;
   height: 100vh;
-}
-
-.App {
-  height: 100%;
 }
 
 a,

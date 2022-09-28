@@ -7,7 +7,7 @@
 
 .homePage {
   width: 100%;
-  height: calc(100% - var(--navbar-height));
+  height: 100%;
 }
 
 .titleContainer {

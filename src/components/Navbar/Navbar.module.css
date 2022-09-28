@@ -22,30 +22,6 @@
   gap: 20px;
 }
 
-.navLink {
-  font-weight: 800;
-  color: var(--title-color);
-}
-
-.navLink div {
-  width: 0;
-  height: 3px;
-  background-color: var(--accent);
-  transition: width 0.3s ease;
-}
-
-.navLink:hover div {
-  width: 100%;
-}
-
-.navLink.active {
-  color: var(--accent);
-}
-
-.navLink.active div {
-  width: 100%;
-}
-
 .navCart {
   color: var(--accent);
   cursor: pointer;

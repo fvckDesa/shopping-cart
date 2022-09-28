@@ -1,0 +1,315 @@
+{
+  "items": [
+    {
+      "productId": "53032",
+      "slug": "2-retro-x-union-sp-grey-fog-2022",
+      "styleCode": "DN3802-001",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Union", "Air Jordan 2"],
+      "productName": "2 Retro x Union  SP Grey Fog (2022)",
+      "description": "",
+      "variantsCount": 223,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 26800,
+        "max": 92500
+      },
+      "productAsset": {
+        "id": "150178",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/104e8811-4127-4b1e-9de2-3184869e2843.__preview.jpg"
+      }
+    },
+    {
+      "productId": "53122",
+      "slug": "dunk-high-gs-australia-2022",
+      "styleCode": "DV7072-300",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Dunk"],
+      "productName": "Dunk High GS Australia\t(2022)",
+      "description": "",
+      "variantsCount": 166,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [10],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 10900,
+        "max": 35000
+      },
+      "productAsset": {
+        "id": "151447",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/1215e5fb-8005-4963-94b2-3dd19f822b33.__preview.jpg"
+      }
+    },
+    {
+      "productId": "53477",
+      "slug": "wmns-dunk-low-banana-2022",
+      "styleCode": "DR5487-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Dunk"],
+      "productName": "WMNS Dunk Low Banana (2022)",
+      "description": "",
+      "variantsCount": 118,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 13500,
+        "max": 25800
+      },
+      "productAsset": {
+        "id": "158160",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/6ddd86ef-03d2-46eb-8869-d1198f4c73e8.__preview.jpg"
+      }
+    },
+    {
+      "productId": "53314",
+      "slug": "dunk-high-wmns-white-salmon-2022",
+      "styleCode": "DD1869-600",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Dunk"],
+      "productName": "Dunk High WMNS White Salmon (2022)",
+      "description": "",
+      "variantsCount": 94,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 13000,
+        "max": 39900
+      },
+      "productAsset": {
+        "id": "155609",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/89c098b3-beda-4832-bc22-7238e58b75c3.__preview.jpg"
+      }
+    },
+    {
+      "productId": "52911",
+      "slug": "boost-700-mnvn-geode-2022",
+      "styleCode": "GW9526",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Yeezy"],
+      "brandLineNames": [],
+      "productName": "Boost 700 MNVN Geode (2022)",
+      "description": "",
+      "variantsCount": 70,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 22300,
+        "max": 65900
+      },
+      "productAsset": {
+        "id": "147178",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/20c0623d-8ec9-4534-ad08-a0076372342a.__preview.jpg"
+      }
+    },
+    {
+      "productId": "53126",
+      "slug": "dunk-low-rose-whisper-2022",
+      "styleCode": "DD1503-118",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Dunk"],
+      "productName": "Dunk Low Rose Whisper (2022)",
+      "description": "",
+      "variantsCount": 65,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 16400,
+        "max": 41000
+      },
+      "productAsset": {
+        "id": "151443",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/bc7003f9-8f24-4760-8db3-ce03fc308090.__preview.jpg"
+      }
+    },
+    {
+      "productId": "53313",
+      "slug": "1-low-lv8d-wmns-university-blue-2022",
+      "styleCode": "DQ3698-141",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 Low LV8D WMNS University Blue (2022)",
+      "description": "",
+      "variantsCount": 61,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 16800,
+        "max": 29900
+      },
+      "productAsset": {
+        "id": "155610",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/57d527a9-6705-4112-8d60-9aa1cb93b946.__preview.jpg"
+      }
+    },
+    {
+      "productId": "53514",
+      "slug": "1-low-gs-washed-denim-2022",
+      "styleCode": "DM8947-100 .",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 Low (GS) Washed Denim (2022)",
+      "description": "",
+      "variantsCount": 59,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [10],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 12100,
+        "max": 29300
+      },
+      "productAsset": {
+        "id": "158781",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/b52be8ab-ed8d-49fc-a15a-85023e3976a2.__preview.jpg"
+      }
+    },
+    {
+      "productId": "47777",
+      "slug": "x-mms-forum-low-2021",
+      "styleCode": "GY1179",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Adidas"],
+      "brandLineNames": ["M&M's"],
+      "productName": "x M&M's Forum Low (2022)",
+      "description": "",
+      "variantsCount": 55,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 17100,
+        "max": 35100
+      },
+      "productAsset": {
+        "id": "63321",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/725738f2-3489-4767-b695-3a49e816dcf0.__preview.png"
+      }
+    },
+    {
+      "productId": "53524",
+      "slug": "6-gs-wash-denim-2022",
+      "styleCode": "DM9045-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Air Jordan 6"],
+      "productName": "6 (GS) Wash Denim (2022)",
+      "description": "",
+      "variantsCount": 23,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [10],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 17700,
+        "max": 23400
+      },
+      "productAsset": {
+        "id": "158772",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/41fbefd2-37e4-47ca-9a30-3ff86c055ec6.__preview.jpg"
+      }
+    }
+  ],
+  "totalItems": 14
+}

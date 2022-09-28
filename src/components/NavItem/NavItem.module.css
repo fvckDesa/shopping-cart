@@ -1,0 +1,23 @@
+.navItem {
+  font-weight: 800;
+  color: var(--title-color);
+}
+
+.underLine {
+  width: 0;
+  height: 3px;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.navItem:hover .underLine {
+  width: 100%;
+}
+
+.navItem.active {
+  color: var(--accent);
+}
+
+.navItem.active .underLine {
+  width: 100%;
+}

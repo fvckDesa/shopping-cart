@@ -1,28 +1,21 @@
-import React from "react";
 // components
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
+import NavItem from "@components/NavItem";
 // style
 import style from "./Navbar.module.css";
 
 function Navbar() {
-  const navLinkClassName = ({ isActive }) =>
-    `${style.navLink} ${isActive ? style.active : ""}`;
-
   return (
     <header className={style.navbar}>
-      <NavLink to="/">
-        <img className={style.logo} src="./All-Streetwear.png" alt="logo" />
-      </NavLink>
+      <Link to="/">
+        <img className={style.logo} src="/All-Streetwear.png" alt="logo" />
+      </Link>
       <nav>
-        <NavLink className={navLinkClassName} to="/" end>
+        <NavItem to="/" end>
           Home
-          <div />
-        </NavLink>
-        <NavLink className={navLinkClassName} to="/shop" end>
-          Shop
-          <div />
-        </NavLink>
+        </NavItem>
+        <NavItem to="/shop">Shop</NavItem>
         <div className={style.navCart}>
           <FaShoppingCart />0
         </div>

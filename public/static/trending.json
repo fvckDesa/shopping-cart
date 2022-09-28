@@ -1,0 +1,643 @@
+{
+  "items": [
+    {
+      "productId": "50648",
+      "slug": "x-off-white-blazer-low-white-and-university-red-2022",
+      "styleCode": "DH7863-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Off-White"],
+      "productName": "x Off-White Blazer Low White and University Red (2022)",
+      "description": "",
+      "variantsCount": 331,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 16500,
+        "max": 175500
+      },
+      "productAsset": {
+        "id": "147994",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/5979e8a1-c724-4206-944f-94133a6cfc40.__preview.jpg"
+      }
+    },
+    {
+      "productId": "52188",
+      "slug": "x-concepts-air-max-1-sp-mellow-2022",
+      "styleCode": "DN1803-300",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Air Max"],
+      "productName": "x Concepts Air Max 1 SP Mellow (2022)",
+      "description": "<p>Eclectic excellence, the Concepts x Nike Air MAX 1 SP Mellow fills the Air Max 1 upper with a perfect mix of floral, kerchief, and acid blue denim patterns. Above the speckled Air midsole is grass green mudguard, and the Nike Air branding is stitched onto the heel tab in loose thread embroidery. The Concepts x Nike Air Max 1 SP Mellow lives up to its moniker, blending these eclectic 60s patterns into one sublimely chilled sneaker.</p>",
+      "variantsCount": 318,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 19100,
+        "max": 234000
+      },
+      "productAsset": {
+        "id": "134076",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/89797153-c471-452a-ba37-a880f696f140.__preview.jpg"
+      }
+    },
+    {
+      "productId": "49179",
+      "slug": "x-sacai-vaporwaffle-black-gum-2022",
+      "styleCode": "DD1875-001",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Sacai"],
+      "productName": "x Sacai VaporWaffle Black Gum (2022)",
+      "description": "",
+      "variantsCount": 100,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 25300,
+        "max": 116500
+      },
+      "productAsset": {
+        "id": "137902",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/55c6e228-0a37-4033-9a9a-fe56630a1e87.__preview.jpg"
+      }
+    },
+    {
+      "productId": "51158",
+      "slug": "1-mid-smoke-grey-black-2022",
+      "styleCode": "554724-078",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 Mid Smoke Grey Black (2022)",
+      "description": "<p>Justice for Mids! The Air Jordan 1 Mid Smoke Grey Black is proof that secretly we all love mids, with the controversial silhouette boasting a supremely wearable combination of light smokey grey, white and black across its premium smooth leather construction. Clean &amp; simple, no wonder it's a bestseller. The Air Jordan 1 Mid Smoke Grey Black a rotation staple.</p>",
+      "variantsCount": 335,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 14700,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "132038",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/c367e302-defd-48dc-af7a-fb976231e7a2.__preview.png"
+      }
+    },
+    {
+      "productId": "51435",
+      "slug": "dunk-low-wmns-white-light-violet-2022",
+      "styleCode": "DD1503-116",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Nike WMNS", "Dunk"],
+      "productName": "Dunk Low WMNS White Light Violet (2022)",
+      "description": "<p>Perfect, perfect, perfect, pastel sneakers! The Nike Dunk Low WMNS White Light Violet sports the ultimate shade of muted lavander, with warm light purple coating the Swoosh and smooth leather side panels. The Dunk Low WMNS White Light Violet the perfect addition to any fit. Get yours at KLEKT!</p>",
+      "variantsCount": 270,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 16800,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "140517",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/8456bea4-f6cd-45bf-8074-ef96157f550d.__preview.jpg"
+      }
+    },
+    {
+      "productId": "37154",
+      "slug": "wmns-dunk-low-black-white-2021",
+      "styleCode": "DD1503-101",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Nike WMNS"],
+      "productName": "WMNS Dunk Low Black White (2021)",
+      "description": "<p>One of the most sought after Dunk colourways, the Nike Dunk Low WMNS Black-White consists of premium smooth leather with bold black panelling atop a blank backdrop. The signature Nike Swoosh accents the solid white base creating a strong contrast that’s both beautifully striking and simple to style at the same time. The Nike Dunk Low WMNS Black White, Cop yours at KLEKT!</p>",
+      "variantsCount": 234,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [2],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 19700,
+        "max": 116900
+      },
+      "productAsset": {
+        "id": "30836",
+        "preview": "https://cdn.filestackcontent.com/MfsVnu5yRpuZ2zxUU36G"
+      }
+    },
+    {
+      "productId": "52189",
+      "slug": "sacai-x-nike-blazer-low-white-grey",
+      "styleCode": "DM6443-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Sacai"],
+      "productName": "x Sacai Blazer Low White Patent Leather (2022)",
+      "description": "",
+      "variantsCount": 106,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 14100,
+        "max": 30000
+      },
+      "productAsset": {
+        "id": "143364",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/01877d04-69f7-4d2c-9d41-a9720359b073.__preview.png"
+      }
+    },
+    {
+      "productId": "50649",
+      "slug": "x-off-white-blazer-low-black-and-electro-green-2022",
+      "styleCode": "DH7863-001",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Off-White"],
+      "productName": "x Off-White Blazer Low Black and Electro Green (2022)",
+      "description": "",
+      "variantsCount": 308,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 14100,
+        "max": 234000
+      },
+      "productAsset": {
+        "id": "147993",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/f444669f-6545-4d1f-8b45-d9768d8f9e72.__preview.jpg"
+      }
+    },
+    {
+      "productId": "52421",
+      "slug": "x-concepts-air-max-1-sp-heavy-2022",
+      "styleCode": "DN1803-900",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Air Max"],
+      "productName": "x Concepts Air Max 1 SP Heavy (2022)",
+      "description": "",
+      "variantsCount": 101,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 19600,
+        "max": 93600
+      },
+      "productAsset": {
+        "id": "140980",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/1d8c1dfe-08d5-47a4-b2ac-bee6097092f6.__preview.png"
+      }
+    },
+    {
+      "productId": "35745",
+      "slug": "air-force-1-low-white-07-2021",
+      "styleCode": "315122-111/CW2288-111",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Air force"],
+      "productName": "Air Force 1 Low White '07 (2021)",
+      "description": "<p>Force of nature. The Nike Air Force 1 Low White '07 is a tried and true rotation staple, if you haven't got a pair yet, what are you waiting for? The cult-classic sports a white premium smooth leather construction, with the monochrome palette extending across the Swoosh branded detailing and sole. It's the ultimate blank slate sneaker. Make it truly yours. The Nike Air Force 1 Low White '07, uniquely you.</p>",
+      "variantsCount": 97,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 10800,
+        "max": 23100
+      },
+      "productAsset": {
+        "id": "29497",
+        "preview": "https://cdn.filestackcontent.com/9D9DcDswTZut3ITzsw5s"
+      }
+    },
+    {
+      "productId": "52639",
+      "slug": "boost-350-v2-bone-2022",
+      "styleCode": "HQ6316",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Yeezy"],
+      "brandLineNames": ["350"],
+      "productName": "Boost 350 V2 Bone (2022)",
+      "description": "",
+      "variantsCount": 259,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 27500,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "140416",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/d921daf7-7793-41d6-8585-9ea413b64aee.__preview.jpg"
+      }
+    },
+    {
+      "productId": "51446",
+      "slug": "yeezy-boost-350-v2-dazzling-blue",
+      "styleCode": "GY7164",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Yeezy"],
+      "brandLineNames": ["Yeezy"],
+      "productName": "Boost 350 V2 Dazzling Blue (2022)",
+      "description": "",
+      "variantsCount": 189,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 23900,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "123151",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/77a645a2-3322-4482-af36-0d60951eada5.__preview.jpg"
+      }
+    },
+    {
+      "productId": "22136",
+      "slug": "x-supreme-air-force-1-low-white-ss20",
+      "styleCode": "CU9225-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Air force"],
+      "productName": "x Supreme Air Force 1 Low White (SS20)",
+      "description": "<p>The Supreme x Nike Air Force 1 Low White is a simple and clean model based on the Air Force 1's classic Triple White colourway. Beneath the Swoosh is Supreme's iconic red box branding, whilst below the premium leather upper sits atop the classic Nike Air midsole, providing supreme levels of comfort. The Supreme x Nike Air Force 1 Low White is a hype revamp of a streetwear staple.</p>",
+      "variantsCount": 95,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 18700,
+        "max": 64400
+      },
+      "productAsset": {
+        "id": "16150",
+        "preview": "https://cdn.filestackcontent.com/ta0pRPFKRauQJ0xC18I6"
+      }
+    },
+    {
+      "productId": "38992",
+      "slug": "550-white-2021",
+      "styleCode": "BB550PB1",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["New Balance"],
+      "brandLineNames": ["New Balance"],
+      "productName": "550 White (2021)",
+      "description": "<p>Easy wearing. The New Balance 550 White is pure sneaker perfection. Clean, minimal and oh so easy to pair with just about everything in your wardrobe, this white leather clad silhouette sports a plethora of perfectly positioned perforations sitting alongside the classic New Balance branding. Grey inserts across the midsole add contrast to the otherwise monochrome sneaker, adding the perfect finishing touch to the ultimate white sneaker (In our opinion). The sales speak for themselves. The New Balance 550 White, what are you waiting for?</p>",
+      "variantsCount": 217,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 15700,
+        "max": 30500
+      },
+      "productAsset": {
+        "id": "32618",
+        "preview": "https://cdn.filestackcontent.com/Gok6S2TcTgmqUDpdlRg8"
+      }
+    },
+    {
+      "productId": "1117",
+      "slug": "boost-350-v2-oreo",
+      "styleCode": "BY1604",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Yeezy"],
+      "brandLineNames": ["350"],
+      "productName": "Boost 350 V2 'Oreo'",
+      "description": "Hot on the tail of the Copper edition, this December 2016 release from Yeezy, the Adidas Yeezy Boost 350 V2 'Oreo' (2016), sees a simple combination of blacks and white to devastating effect. With a black Primeknit upper and translucent black midsole sandwiching a white stripe, SPLY 350 branding, you'd be a fool not to follow in Yeezy's footsteps. Now available on KLEKT.",
+      "variantsCount": 169,
+      "sameDayShipping": true,
+      "sdsPriceWithTaxMin": 30900,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 29200,
+        "max": 117000
+      },
+      "productAsset": {
+        "id": "611",
+        "preview": "https://s3-eu-west-1.amazonaws.com/klekt-products/BY1604.jpg"
+      }
+    },
+    {
+      "productId": "52909",
+      "slug": "1-high-heritage-white-red-2022",
+      "styleCode": "555088-161",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 High Heritage White Red (2022)",
+      "description": "",
+      "variantsCount": 673,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 18200,
+        "max": 198900
+      },
+      "productAsset": {
+        "id": "147175",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/f38e39ad-b55c-49ed-9500-fc23c0dd923d.__preview.jpg"
+      }
+    },
+    {
+      "productId": "50785",
+      "slug": "yeezy-boost-350-v2-beluga-reflective-2021",
+      "styleCode": "GW1229",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Yeezy"],
+      "brandLineNames": ["350"],
+      "productName": "Yeezy Boost 350 V2 Beluga Reflective (2021)",
+      "description": "<p>Constructed from adidas Primeknit, the adidas Yeezy Boost 350 V2 Beluga Reflective sees one of the Yeezy brand's most enduring and iconic models sporting a Beluga Reflective colourway. Boasting an enticing reflective grey zebra print accented with the striking orange \"SPLY-350 stripe\", all sitting atop the pillowy chunky boost sole. The adidas Yeezy Boost 350 V2 Beluga Reflective, cop now at KLEKT!</p>",
+      "variantsCount": 354,
+      "sameDayShipping": true,
+      "sdsPriceWithTaxMin": 28400,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 25900,
+        "max": 117000
+      },
+      "productAsset": {
+        "id": "105261",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/3acf94e6-b16d-47bd-ae17-74d55bacb4d8.__preview.png"
+      }
+    },
+    {
+      "productId": "50652",
+      "slug": "x-union-dunk-low-blue-2022",
+      "styleCode": "DJ9649-400",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Union", "Dunk"],
+      "productName": "x Union Dunk Low Blue (2022)",
+      "description": "",
+      "variantsCount": 312,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 27300,
+        "max": 1755000
+      },
+      "productAsset": {
+        "id": "102507",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/9c50b4fe-5c01-45d4-8891-2b99767afc78.__preview.png"
+      }
+    },
+    {
+      "productId": "52463",
+      "slug": "dunk-low-court-purple-white-2022",
+      "styleCode": "DD1391-104",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Dunk"],
+      "productName": "Dunk Low Court Purple White (2022)",
+      "description": "",
+      "variantsCount": 227,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 17500,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "137972",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/96d0af1d-7677-4172-891f-b7588c9620ef.__preview.jpg"
+      }
+    },
+    {
+      "productId": "45798",
+      "slug": "dunk-low-grey-fog-2021",
+      "styleCode": "DD1391-103",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Nike"],
+      "brandLineNames": ["Dunk"],
+      "productName": "Dunk Low Grey Fog (2021)",
+      "description": "<p>The Nike Dunk Low Grey Fog colourway blends grey details with a white base with neutral ease. Uppers are constructed from premium smooth leather, with muted greys found across the mudguard, along the side panels and the iconic Nike Swoosh. The Nike Dunk Low Grey Fog, cop yours on KLEKT</p>",
+      "variantsCount": 171,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 23900,
+        "max": 70200
+      },
+      "productAsset": {
+        "id": "41242",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/b0a03245-7546-4921-bfae-3c38ad386b87.__preview.png"
+      }
+    }
+  ],
+  "totalItems": 21
+}

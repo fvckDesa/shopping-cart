@@ -1,7 +1,7 @@
-import React from "react";
+// components
 import { Link } from "react-router-dom";
 import { IoIosArrowDropright } from "react-icons/io";
-
+// style
 import style from "./Home.module.css";
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
       </div>
       <img
         className={style.illustration}
-        src="./shoes-illustration.png"
+        src="/shoes-illustration.png"
         alt="shoes illustration"
       />
     </div>
