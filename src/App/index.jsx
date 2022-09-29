@@ -1,8 +1,9 @@
 // components
 import { Routes, Route } from "react-router-dom";
-import { Home, Shop, ShopList, ShopItemPage, NotFound } from "@pages";
+import { Home, Shop, ShopItemPage, NotFound } from "@pages";
 import Redirect from "@components/Redirect";
 import Navbar from "@components/Navbar";
+import ShopList from "@components/ShopList";
 // style
 import style from "./App.module.css";
 

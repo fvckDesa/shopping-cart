@@ -1,0 +1,16 @@
+.shopItem {
+  width: 180px;
+  height: auto;
+}
+
+.shopItem__image {
+  width: 140px;
+  height: 100px;
+  margin: 16px;
+  object-fit: cover;
+}
+
+.shopItem__name {
+  font-size: 14px;
+  color: var(--title-color);
+}

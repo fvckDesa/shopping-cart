@@ -2,7 +2,8 @@
 import useAxios from "@src/hooks/useAxios";
 // components
 import { Ring } from "@uiball/loaders";
-
+import ShopItem from "@components/ShopItem";
+// utils
 import { parseShopData } from "@src/utils";
 // style
 import style from "./ShopList.module.css";
@@ -27,10 +28,7 @@ function ShopList({ url = "" }) {
       )}
       {!isLoading &&
         parseShopData(data)?.map(({ id, name, image }) => (
-          <div key={id}>
-            <p>{name}</p>
-            <p>{image}</p>
-          </div>
+          <ShopItem key={id} id={id} name={name} image={image} />
         ))}
     </div>
   );

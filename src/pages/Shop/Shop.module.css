@@ -29,5 +29,6 @@
 }
 
 .shop main {
-  height: calc(100% - var(--shop-navbar-height));
+  min-height: calc(100% - var(--shop-navbar-height));
+  margin-bottom: 32px;
 }
