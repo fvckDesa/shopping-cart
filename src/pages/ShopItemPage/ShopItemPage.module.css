@@ -1,0 +1,80 @@
+.shopItemPage {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  min-height: 100%;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+.productInfo__name {
+  color: var(--title-color);
+}
+
+.productInfo__description {
+  color: var(--text-color);
+}
+
+.productInfo__description span {
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.addToCartBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.addToCartBtn:hover {
+  opacity: 0.6;
+}
+
+.addToCartBtn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.klektLink {
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+.klektLink div {
+  width: 0;
+  height: 3px;
+  background-color: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.klektLink:hover div {
+  width: 100%;
+}
+
+.productImage {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}

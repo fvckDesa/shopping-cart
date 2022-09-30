@@ -1,0 +1,351 @@
+{
+  "name": "x Travis Scott 1 Retro High (2019)",
+  "id": "16486",
+  "slug": "1-retro-high-travis-scott-2019",
+  "description": "<p>Add a much-needed caffeine injection to your sneaker collection. The Air Jordan 1 Retro High Travis Scott has fans around the globe lusting after.  A balanced and clean colourway elevates the fan-favourite silhouette, combining a deep matt mocha, snowy white and smooth black. The familiar yet unique design takes the classic patchwork panelling to new heights, incorporating a luxurious mix of premium leather and velvety suede. The iconic lateral swoosh enlarged and flipped alongside the hidden ankle pocket sealed with the Cactus Jack insignia, incorporating Travis Scott's quirky design style. There is no doubt that the Air Jordan 1 Retro High Travis Scott are some of the most sought-after sneakers released this year.</p>",
+  "conditions": [
+    {
+      "condition": "new",
+      "minPrice": 152100
+    },
+    {
+      "condition": "used",
+      "minPrice": 133100
+    }
+  ],
+  "featuredAsset": {
+    "preview": "https://cdn.filestackcontent.com/psm3FkzLQaWNEF755Wh7"
+  },
+  "assets": [
+    {
+      "asset": {
+        "id": "11044",
+        "preview": "https://cdn.filestackcontent.com/psm3FkzLQaWNEF755Wh7",
+        "name": "https://cdn.filestackcontent.com/psm3FkzLQaWNEF755Wh7"
+      },
+      "position": 0
+    }
+  ],
+  "customFields": {
+    "new": null,
+    "featured": null,
+    "styleCode": "CD4487-100",
+    "releaseDate": null
+  },
+  "facetValues": [
+    {
+      "code": "staffpicks"
+    },
+    {
+      "code": "travsneak"
+    },
+    {
+      "code": "sneakers"
+    },
+    {
+      "code": "cheap"
+    },
+    {
+      "code": "tk-tp"
+    },
+    {
+      "code": "sneakers"
+    },
+    {
+      "code": "air-jordan"
+    },
+    {
+      "code": "jordan-1"
+    },
+    {
+      "code": "hb"
+    },
+    {
+      "code": "hf"
+    }
+  ],
+  "variants": [
+    {
+      "id": "3196856",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 7,
+      "priceWithTax": 215700,
+      "facetValues": [
+        {
+          "code": "us10",
+          "name": "US10",
+          "id": "27",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3176704",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 7,
+      "priceWithTax": 207100,
+      "facetValues": [
+        {
+          "code": "us10.5",
+          "name": "US10.5",
+          "id": "29",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3188030",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 2,
+      "priceWithTax": 200000,
+      "facetValues": [
+        {
+          "code": "us11",
+          "name": "US11",
+          "id": "31",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3105092",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 2,
+      "priceWithTax": 233900,
+      "facetValues": [
+        {
+          "code": "us11.5",
+          "name": "US11.5",
+          "id": "30",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2853096",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 2,
+      "priceWithTax": 233500,
+      "facetValues": [
+        {
+          "code": "us12",
+          "name": "US12",
+          "id": "32",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3209986",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 3,
+      "priceWithTax": 220900,
+      "facetValues": [
+        {
+          "code": "us12.5",
+          "name": "US12.5",
+          "id": "33",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3177092",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 3,
+      "priceWithTax": 204300,
+      "facetValues": [
+        {
+          "code": "us13",
+          "name": "US13",
+          "id": "39",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2994978",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 1,
+      "priceWithTax": 269100,
+      "facetValues": [
+        {
+          "code": "us14",
+          "name": "US14",
+          "id": "41",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3076369",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 2,
+      "priceWithTax": 152100,
+      "facetValues": [
+        {
+          "code": "us15",
+          "name": "US15",
+          "id": "45",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3191930",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 2,
+      "priceWithTax": 222200,
+      "facetValues": [
+        {
+          "code": "us7",
+          "name": "US7",
+          "id": "22",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3197373",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 7,
+      "priceWithTax": 192600,
+      "facetValues": [
+        {
+          "code": "us8",
+          "name": "US8",
+          "id": "25",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3196852",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 12,
+      "priceWithTax": 175300,
+      "facetValues": [
+        {
+          "code": "us8.5",
+          "name": "US8.5",
+          "id": "23",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3190167",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 6,
+      "priceWithTax": 186900,
+      "facetValues": [
+        {
+          "code": "us9",
+          "name": "US9",
+          "id": "26",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3190173",
+      "customFields": {
+        "sameDayShipping": false
+      },
+      "availableCount": 10,
+      "priceWithTax": 204700,
+      "facetValues": [
+        {
+          "code": "us9.5",
+          "name": "US9.5",
+          "id": "28",
+          "facet": {
+            "code": "size"
+          }
+        }
+      ]
+    }
+  ],
+  "variantsNDD": [],
+  "variantsUSED": [
+    {
+      "id": "3162069",
+      "price": 110000,
+      "name": "US10",
+      "priceWithTax": 133100,
+      "customFields": {
+        "sameDayShipping": false
+      }
+    },
+    {
+      "id": "3142472",
+      "price": 145000,
+      "name": "US11",
+      "priceWithTax": 175500,
+      "customFields": {
+        "sameDayShipping": false
+      }
+    },
+    {
+      "id": "2948823",
+      "price": 160000,
+      "name": "US11.5",
+      "priceWithTax": 193600,
+      "customFields": {
+        "sameDayShipping": false
+      }
+    }
+  ]
+}
