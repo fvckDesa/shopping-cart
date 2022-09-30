@@ -27,8 +27,8 @@ function ShopList({ url = "" }) {
         </span>
       )}
       {!isLoading &&
-        parseShopData(data)?.map(({ id, name, image }) => (
-          <ShopItem key={id} id={id} name={name} image={image} />
+        parseShopData(data)?.map(({ id, name, image, brand }) => (
+          <ShopItem key={id} id={id} name={name} image={image} brand={brand} />
         ))}
     </div>
   );

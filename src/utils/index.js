@@ -1,11 +1,14 @@
 const MAX_CHAR_COMPACT_DESCRIPTION = 80;
 
 export function parseShopData(data) {
-  return data?.items.map(({ productId, productName, productAsset }) => ({
-    id: productId,
-    name: productName,
-    image: productAsset.preview,
-  }));
+  return data?.items.map(
+    ({ productId, productName, productAsset, brandNames }) => ({
+      id: productId,
+      name: productName,
+      image: productAsset.preview,
+      brand: brandNames[0],
+    })
+  );
 }
 
 export function formatProductDescription(description, isCompact) {

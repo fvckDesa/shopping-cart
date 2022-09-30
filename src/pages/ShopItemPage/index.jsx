@@ -1,6 +1,7 @@
 // hooks
 import { useState } from "react";
 import useAxios from "@hooks/useAxios";
+import useQuery from "@hooks/useQuery";
 // components
 import { FaCartPlus } from "react-icons/fa";
 import { Ring } from "@uiball/loaders";
@@ -14,6 +15,7 @@ const baseURL = "/static/";
 
 function ShopItemPage() {
   const [isCompactDescription, setIsCompactDescription] = useState(true);
+  const { brand } = useQuery();
   const { data, isLoading, error } = useAxios(baseURL + "productDetails.json", {
     headers: {
       "X-RapidAPI-Key": API_KEY,
@@ -24,7 +26,7 @@ function ShopItemPage() {
     <div className={style.shopItemPage}>
       {isLoading && <Ring size={40} lineWeight={5} speed={2} color="black" />}
       <div className={style.productInfo}>
-        <h2 className={style.productInfo__name}>{data?.name}</h2>
+        <h2 className={style.productInfo__name}>{`${brand} ${data?.name}`}</h2>
         <p className={style.productInfo__description}>
           {formatProductDescription(data?.description, isCompactDescription)}
           <br />
