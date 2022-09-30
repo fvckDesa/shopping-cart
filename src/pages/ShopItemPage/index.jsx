@@ -6,7 +6,7 @@ import useQuery from "@hooks/useQuery";
 import { FaCartPlus } from "react-icons/fa";
 import { Ring } from "@uiball/loaders";
 // utils
-import { formatProductDescription } from "@src/utils";
+import { formatProductDescription, formatPrice } from "@src/utils";
 // style
 import style from "./ShopItemPage.module.css";
 
@@ -34,6 +34,9 @@ function ShopItemPage() {
             Read {isCompactDescription ? "more" : "less"}
           </span>
         </p>
+        <h1 className={style.productInfo__price}>
+          {formatPrice(data?.conditions[0].minPrice)}€
+        </h1>
         <div className={style.actionsContainer}>
           <button className={style.addToCartBtn} type="button">
             <FaCartPlus /> Add to cart

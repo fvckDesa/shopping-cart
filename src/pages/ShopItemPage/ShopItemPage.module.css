@@ -3,6 +3,7 @@
   justify-content: center;
   gap: 35px;
   min-height: 100%;
+  padding-bottom: 35px;
 }
 
 .productInfo {
@@ -24,6 +25,11 @@
   color: var(--accent);
   text-decoration: underline;
   cursor: pointer;
+}
+
+.productInfo__price {
+  color: var(--title-color);
+  font-weight: 700;
 }
 
 .actionsContainer {

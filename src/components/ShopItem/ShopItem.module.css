@@ -1,4 +1,6 @@
 .shopItem {
+  display: flex;
+  flex-direction: column;
   width: 180px;
   height: auto;
 }
@@ -12,5 +14,13 @@
 
 .shopItem__name {
   font-size: 14px;
+  color: var(--title-color);
+}
+
+.shopItem__price {
+  align-self: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: auto;
   color: var(--title-color);
 }
