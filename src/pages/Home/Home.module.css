@@ -30,34 +30,17 @@
 }
 
 .shopBtn {
-  width: fit-content;
-  height: 56px;
-  border: none;
-  border-radius: 56px;
-  font-size: 18px;
   background-color: var(--accent);
   color: #fff;
-  overflow: hidden;
   transition: opacity 0.3s ease;
 }
 
 .shopBtn:hover {
-  opacity: 0.6;
-}
-
-.shopLink {
-  gap: 8px;
-  height: 100%;
-  padding: 16px 20px;
-}
-
-.shopLink svg {
-  width: 24px;
-  height: 24px;
+  opacity: 0.8;
 }
 
 .illustration {
   width: 400px;
-  height: 350px;
+  height: 90%;
   object-fit: cover;
 }

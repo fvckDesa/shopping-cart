@@ -1,0 +1,54 @@
+.linkButton {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1000px;
+  border: none;
+  overflow: hidden;
+}
+
+.linkButton:disabled {
+  opacity: 0.6 !important;
+  cursor: default;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm {
+  gap: 6px;
+  height: 36px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.sm svg {
+  width: 16px;
+  height: 16px;
+}
+
+.lg {
+  gap: 8px;
+  height: 40px;
+  padding: 10px 16px;
+  font-size: 16px;
+}
+
+.lg svg {
+  width: 20px;
+  height: 20px;
+}
+
+.xl {
+  gap: 8px;
+  height: 56px;
+  padding: 16px 20px;
+  font-size: 18px;
+}
+
+.xl svg {
+  width: 24px;
+  height: 24px;
+}

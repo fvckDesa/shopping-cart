@@ -5,7 +5,7 @@ import NavItem from "@components/NavItem";
 // style
 import style from "./Navbar.module.css";
 
-function Navbar() {
+function Navbar({ cartItemsCount, onCartClick, isCartOpen }) {
   return (
     <header className={style.navbar}>
       <Link to="/">
@@ -16,9 +16,13 @@ function Navbar() {
           Home
         </NavItem>
         <NavItem to="/shop">Shop</NavItem>
-        <div className={style.navCart}>
-          <FaShoppingCart />0
-        </div>
+        <button
+          className={`${style.navCart} ${isCartOpen ? style.open : ""}`}
+          onClick={onCartClick}
+        >
+          <FaShoppingCart />
+          {cartItemsCount}
+        </button>
       </nav>
     </header>
   );

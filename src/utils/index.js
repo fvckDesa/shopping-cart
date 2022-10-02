@@ -23,3 +23,14 @@ export function formatProductDescription(description, isCompact) {
 export function formatPrice(price) {
   return Math.ceil(+String(price).replace(/([0-9]{2})$/, ".$1"));
 }
+
+export function countCartItems(items) {
+  return Object.values(items).reduce((acc, curr) => acc + curr.count, 0);
+}
+
+export function getTotal(items) {
+  return Object.values(items).reduce(
+    (acc, { item, count }) => acc + item.price * count,
+    0
+  );
+}

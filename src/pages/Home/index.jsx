@@ -1,5 +1,5 @@
 // components
-import { Link } from "react-router-dom";
+import LinkButton from "@components/LinkButton";
 import { IoIosArrowDropright } from "react-icons/io";
 // style
 import style from "./Home.module.css";
@@ -14,16 +14,14 @@ function Home() {
         <h2 className={style.subtitle}>
           Hundreds of streetwear items for create your personal style
         </h2>
-        <button type="button" className={style.shopBtn}>
-          <Link className={style.shopLink} to="/shop">
-            Shop now <IoIosArrowDropright />
-          </Link>
-        </button>
+        <LinkButton className={style.shopBtn} to="/shop" size="xl">
+          Shop now <IoIosArrowDropright />
+        </LinkButton>
       </div>
       <img
         className={style.illustration}
-        src="/shoes-illustration.png"
-        alt="shoes illustration"
+        src="/illustration.png"
+        alt="products image"
       />
     </div>
   );

@@ -23,6 +23,18 @@
 }
 
 .navCart {
-  color: var(--accent);
+  border: none;
+  background-color: transparent;
+  transition: color 0.3s ease;
   cursor: pointer;
+}
+
+.navCart svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+}
+
+.navCart.open {
+  color: var(--accent);
 }
