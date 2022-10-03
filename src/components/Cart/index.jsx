@@ -1,5 +1,6 @@
 // components
 import CartItem from "@components/CartItem";
+import EmptyCart from "@components/EmptyCart";
 // utils
 import { getTotal } from "@src/utils";
 import { IoIosArrowDropright } from "react-icons/io";
@@ -26,12 +27,8 @@ function Cart({
         <h1 className={style.cartTitle}>Your cart:</h1>
         <div className={style.cartList}>
           {Object.values(items).length === 0 && (
-            <div className={style.emptyCart}>
-              <img className={style.emptyCart__image} src="/empty-box.svg" />
-              <span className={style.emptyCart__title}>Your cart is empty</span>
-              <span className={style.emptyCart__subtitle}>
-                Looks like you haven't added anything to your cart yet
-              </span>
+            <div className={style.emptyCartContainer}>
+              <EmptyCart />
             </div>
           )}
           {Object.values(items).map(({ item, count }) => (

@@ -52,34 +52,13 @@
   display: none;
 }
 
-.emptyCart {
+.emptyCartContainer {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
-}
-
-.emptyCart__image {
-  width: 150px;
-  height: 150px;
-}
-
-.emptyCart__title {
-  color: var(--title-color);
-  font-size: 18px;
-  font-weight: 800;
-}
-
-.emptyCart__subtitle {
-  color: var(--text-color);
-  font-size: 14px;
-  font-weight: 500;
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .cartFooter {
