@@ -3,7 +3,7 @@ import { useState } from "react";
 import useLocalStorage from "@hooks/useLocalStorage";
 // components
 import { Routes, Route } from "react-router-dom";
-import { Home, Shop, ShopItemPage, NotFound } from "@pages";
+import { Home, Shop, ShopItemPage, NotFound, Checkout } from "@pages";
 import Redirect from "@components/Redirect";
 import Navbar from "@components/Navbar";
 import ShopList from "@components/ShopList";
@@ -45,7 +45,7 @@ function App() {
   function decreaseCartItem(id) {
     setCartItems((prev) => {
       const { item, count } = prev[id];
-
+      // delete item if his count is 0
       if (count - 1 <= 0) {
         const { [id]: _, ...other } = prev;
         return { ...other };
@@ -86,6 +86,17 @@ function App() {
               element={<ShopItemPage onAddItemToCart={addItemToCart} />}
             />
           </Route>
+          <Route
+            path="/checkout"
+            element={
+              <Checkout
+                items={cartItems}
+                onDeleteItem={deleteCartItem}
+                onIncreaseItem={increaseCartItem}
+                onDecreaseItem={decreaseCartItem}
+              />
+            }
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
