@@ -34,3 +34,11 @@ export function getTotal(items) {
     0
   );
 }
+
+export function debounce(cb, delay = 500) {
+  let timeout;
+  return function (...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(cb, delay, ...args);
+  };
+}

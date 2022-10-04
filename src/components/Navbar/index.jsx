@@ -1,16 +1,58 @@
+// hooks
+import { useNavigate, useLocation } from "react-router-dom";
+import { useState } from "react";
 // components
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart, FaSearch } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 import NavItem from "@components/NavItem";
+// utils
+import { debounce } from "@src/utils";
 // style
 import style from "./Navbar.module.css";
 
 function Navbar({ cartItemsCount, onCartClick, isCartOpen }) {
+  const [lastPage, setLastPage] = useState("/");
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  function redirectSearch(search = "") {
+    if (!location.pathname.includes("/shop/search")) {
+      setLastPage(location.pathname);
+    }
+    navigate(search.length > 0 ? `/shop/search?q=${search}` : lastPage);
+  }
+
+  function clearSearch(e) {
+    e.target.value = "";
+  }
+
+  function handleDelete(e) {
+    clearSearch(e);
+    if (location.pathname.includes("/shop/search")) {
+      redirectSearch();
+    }
+  }
+
   return (
     <header className={style.navbar}>
-      <Link to="/">
-        <img className={style.logo} src="/All-Streetwear.png" alt="logo" />
-      </Link>
+      <div className={style.navbar__left}>
+        <Link to="/">
+          <img className={style.logo} src="/All-Streetwear.png" alt="logo" />
+        </Link>
+        <div className={style.searchBar}>
+          <FaSearch />
+          <input
+            type="text"
+            placeholder="Type keyword here"
+            onInput={debounce((e) => redirectSearch(e.target.value))}
+            onBlur={clearSearch}
+          />
+          <button className={style.clearBtn} onClick={handleDelete}>
+            <IoClose />
+          </button>
+        </div>
+      </div>
       <nav>
         <NavItem to="/" end>
           Home

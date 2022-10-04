@@ -1,0 +1,13 @@
+.searchPage {
+  height: 100%;
+}
+
+.searchPage h2 {
+  font-size: 16px;
+  padding: 10px 25px;
+  color: var(--title-color);
+}
+
+.listContainer {
+  height: 90%;
+}

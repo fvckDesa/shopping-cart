@@ -1,0 +1,194 @@
+{
+  "items": [
+    {
+      "productId": "20358",
+      "slug": "1-retro-high-og-dark-mocha-2020",
+      "styleCode": "555088-105",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 Retro High OG 'Dark Mocha' (2020)",
+      "description": "<p>Coffee time, the Air Jordan 1 Retro High OG Dark Mocha will satisfy your caffeine cravings.</p>",
+      "variantsCount": 158,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        },
+        {
+          "condition": "used"
+        }
+      ],
+      "customMappings": {
+        "featured": true,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 48600,
+        "max": 175500
+      },
+      "productAsset": {
+        "id": "14478",
+        "preview": "https://cdn.filestackcontent.com/zlcPYDARgCqeEzL6dXkY"
+      }
+    },
+    {
+      "productId": "51713",
+      "slug": "jordan-1-high-85-georgetown-2022",
+      "styleCode": "BQ4422-400",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 High 85 Georgetown (2022)",
+      "description": "",
+      "variantsCount": 87,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 32700,
+        "max": 90500
+      },
+      "productAsset": {
+        "id": "126760",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/d625b5a6-f048-4dc5-be30-7760ad081a9e.__preview.jpg"
+      }
+    },
+    {
+      "productId": "49566",
+      "slug": "1-mid-tan-suede-2021",
+      "styleCode": "DO6726-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 Mid Tan Suede (2021)",
+      "description": "",
+      "variantsCount": 54,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 18200,
+        "max": 35000
+      },
+      "productAsset": {
+        "id": "91809",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/6fc4b5ee-0b5f-4847-982d-61a8ac6d412f.__preview.png"
+      }
+    },
+    {
+      "productId": "51158",
+      "slug": "1-mid-smoke-grey-black-2022",
+      "styleCode": "554724-078",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 Mid Smoke Grey Black (2022)",
+      "description": "<p>Justice for Mids! The Air Jordan 1 Mid Smoke Grey Black is proof that secretly we all love mids, with the controversial silhouette boasting a supremely wearable combination of light smokey grey, white and black across its premium smooth leather construction. Clean &amp; simple, no wonder it's a bestseller. The Air Jordan 1 Mid Smoke Grey Black a rotation staple.</p>",
+      "variantsCount": 337,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 14700,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "132038",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/c367e302-defd-48dc-af7a-fb976231e7a2.__preview.png"
+      }
+    },
+    {
+      "productId": "43095",
+      "slug": "1-high-og-pollen-2021",
+      "styleCode": "555088-701",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["Jordan 1"],
+      "productName": "1 High OG Pollen (2021)",
+      "description": "",
+      "variantsCount": 174,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": false
+      },
+      "priceWithTax": {
+        "min": 19200,
+        "max": 58500
+      },
+      "productAsset": {
+        "id": "37740",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/e16d74c0-9370-433d-af01-8716a0715772.__preview.png"
+      }
+    },
+    {
+      "productId": "46933",
+      "slug": "x-a-ma-maniere-1-high-og-2021",
+      "styleCode": "DO7097-100",
+      "categoryNames": ["Sneakers"],
+      "brandNames": ["Air Jordan"],
+      "brandLineNames": ["A Ma Maniere", "Jordan 1"],
+      "productName": "x A Ma Maniere 1 High OG (2021)",
+      "description": "",
+      "variantsCount": 129,
+      "sameDayShipping": false,
+      "sdsPriceWithTaxMin": 0,
+      "sizeType": [1],
+      "conditions": [
+        {
+          "condition": "new"
+        }
+      ],
+      "customMappings": {
+        "featured": false,
+        "new": true
+      },
+      "priceWithTax": {
+        "min": 28700,
+        "max": 117000
+      },
+      "productAsset": {
+        "id": "93451",
+        "preview": "https://storage.googleapis.com/kt-apiv2-default/31061a94-5a01-4d46-a052-121a303b66ed.__preview.png"
+      }
+    }
+  ],
+  "totalItems": 992
+}

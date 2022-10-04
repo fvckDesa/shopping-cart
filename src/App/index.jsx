@@ -3,7 +3,7 @@ import { useState } from "react";
 import useLocalStorage from "@hooks/useLocalStorage";
 // components
 import { Routes, Route } from "react-router-dom";
-import { Home, Shop, ShopItemPage, NotFound, Checkout } from "@pages";
+import { Home, Shop, ShopItemPage, NotFound, Checkout, Search } from "@pages";
 import Redirect from "@components/Redirect";
 import Navbar from "@components/Navbar";
 import ShopList from "@components/ShopList";
@@ -85,6 +85,7 @@ function App() {
               element={<ShopList url="streetwear.json" />}
             />
             <Route path="drops" element={<ShopList url="drops.json" />} />
+            <Route path="search" element={<Search />} />
             <Route
               path=":id"
               element={<ShopItemPage onAddItemToCart={addItemToCart} />}
