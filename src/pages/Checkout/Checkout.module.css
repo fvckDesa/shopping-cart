@@ -139,6 +139,8 @@
 .productListFooter {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
   padding: 15px 50px;
   border-top: solid 1px #ccc;
 }
@@ -148,8 +150,7 @@
   font-weight: 700;
 }
 
-.payment {
-  flex: 0.45;
-  background-color: #cee5f2;
-  border-radius: 15px;
+.shopBtn__text {
+  display: inline-block;
+  padding-inline: 20px;
 }

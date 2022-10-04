@@ -55,6 +55,10 @@ function App() {
     });
   }
 
+  function clearCart() {
+    setCartItems({});
+  }
+
   return (
     <div className={style.App}>
       <Navbar
@@ -94,6 +98,7 @@ function App() {
                 onDeleteItem={deleteCartItem}
                 onIncreaseItem={increaseCartItem}
                 onDecreaseItem={decreaseCartItem}
+                onBuy={clearCart}
               />
             }
           />
