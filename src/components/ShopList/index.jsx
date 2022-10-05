@@ -22,7 +22,7 @@ function ShopList({ url = "" }) {
   return (
     <div className={style.shopList}>
       {isLoading && (
-        <span className={style.loaderContainer}>
+        <span className={style.loaderContainer} data-testid="loader">
           <Ring size={40} lineWeight={5} speed={2} color="black" />
         </span>
       )}

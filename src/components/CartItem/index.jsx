@@ -15,12 +15,13 @@ function CartItem({
     <div className={style.cartItem}>
       <button
         type="button"
+        data-testid="delete"
         className={style.removeBtn}
         onClick={() => onDelete(id)}
       >
         <CgCloseO className={style.removeIcon} />
       </button>
-      <img className={style.cartItem__image} src={image} />
+      <img className={style.cartItem__image} src={image} alt="product image" />
       <h3 className={style.cartItem__name}>{`${brand} ${name}`}</h3>
       <span className={style.cartItem__price}>
         Price: {price} € x {count}
@@ -28,6 +29,7 @@ function CartItem({
       <div className={style.actionContainer}>
         <button
           type="button"
+          data-testid="decrease"
           className={style.actionBtn}
           onClick={() => onDecrease(id)}
         >
@@ -35,6 +37,7 @@ function CartItem({
         </button>
         <button
           type="button"
+          data-testid="increase"
           className={style.actionBtn}
           onClick={() => onIncrease(id)}
         >
