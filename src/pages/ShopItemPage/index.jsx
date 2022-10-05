@@ -8,6 +8,9 @@ import { Ring } from "@uiball/loaders";
 // utils
 import { formatProductDescription, formatPrice } from "@src/utils";
 // style
+// types
+import PropTypes from "prop-types";
+// style
 import style from "./ShopItemPage.module.css";
 
 const { VITE_RAPID_API_KEY: API_KEY } = import.meta.env;
@@ -74,5 +77,9 @@ function ShopItemPage({ onAddItemToCart }) {
     </div>
   );
 }
+
+ShopItemPage.propTypes = {
+  onAddItemToCart: PropTypes.func.isRequired,
+};
 
 export default ShopItemPage;

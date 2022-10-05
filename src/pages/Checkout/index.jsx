@@ -1,3 +1,6 @@
+// types
+import PropTypes from "prop-types";
+import { typeCartItem } from "@types/";
 // components
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { IoIosArrowDropright } from "react-icons/io";
@@ -91,5 +94,13 @@ function Checkout({
     </div>
   );
 }
+
+Checkout.propTypes = {
+  items: PropTypes.objectOf(typeCartItem).isRequired,
+  onDeleteItem: PropTypes.func.isRequired,
+  onIncreaseItem: PropTypes.func.isRequired,
+  onDecreaseItem: PropTypes.func.isRequired,
+  onBuy: PropTypes.func.isRequired,
+};
 
 export default Checkout;

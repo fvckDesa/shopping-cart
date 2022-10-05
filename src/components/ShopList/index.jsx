@@ -1,3 +1,5 @@
+// types
+import PropTypes from "prop-types";
 // hooks
 import useAxios from "@src/hooks/useAxios";
 // components
@@ -33,5 +35,9 @@ function ShopList({ url = "" }) {
     </div>
   );
 }
+
+ShopList.propTypes = {
+  url: PropTypes.string.isRequired,
+};
 
 export default ShopList;

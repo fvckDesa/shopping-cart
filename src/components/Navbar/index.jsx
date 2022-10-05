@@ -1,3 +1,5 @@
+// types
+import PropTypes from "prop-types";
 // hooks
 import { useNavigate, useLocation } from "react-router-dom";
 import { useState } from "react";
@@ -69,5 +71,11 @@ function Navbar({ cartItemsCount, onCartClick, isCartOpen }) {
     </header>
   );
 }
+
+Navbar.propTypes = {
+  cartItemsCount: PropTypes.number.isRequired,
+  onCartClick: PropTypes.func.isRequired,
+  isCartOpen: PropTypes.bool.isRequired,
+};
 
 export default Navbar;

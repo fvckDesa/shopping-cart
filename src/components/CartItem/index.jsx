@@ -1,3 +1,6 @@
+// types
+import PropTypes from "prop-types";
+import { typeProduct } from "@types/";
 // components
 import { CgCloseO } from "react-icons/cg";
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
@@ -47,5 +50,13 @@ function CartItem({
     </div>
   );
 }
+
+CartItem.propTypes = {
+  item: typeProduct.isRequired,
+  count: PropTypes.number.isRequired,
+  onDelete: PropTypes.func.isRequired,
+  onIncrease: PropTypes.func.isRequired,
+  onDecrease: PropTypes.func.isRequired,
+};
 
 export default CartItem;

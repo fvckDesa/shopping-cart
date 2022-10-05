@@ -1,3 +1,6 @@
+// types
+import PropTypes from "prop-types";
+import { typeCartItem } from "@types/";
 // components
 import CartItem from "@components/CartItem";
 import EmptyCart from "@components/EmptyCart";
@@ -57,5 +60,14 @@ function Cart({
     </div>
   );
 }
+
+Cart.propTypes = {
+  items: PropTypes.objectOf(typeCartItem).isRequired,
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  onDeleteItem: PropTypes.func.isRequired,
+  onIncreaseItem: PropTypes.func.isRequired,
+  onDecreaseItem: PropTypes.func.isRequired,
+};
 
 export default Cart;

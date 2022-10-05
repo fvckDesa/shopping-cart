@@ -1,3 +1,5 @@
+// types
+import PropTypes from "prop-types";
 // components
 import { NavLink } from "react-router-dom";
 // style
@@ -17,5 +19,11 @@ function NavItem({ to, end, children }) {
     </NavLink>
   );
 }
+
+NavItem.propTypes = {
+  to: PropTypes.string.isRequired,
+  end: PropTypes.bool,
+  children: PropTypes.node,
+};
 
 export default NavItem;
