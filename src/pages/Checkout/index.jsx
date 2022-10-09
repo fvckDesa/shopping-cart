@@ -1,6 +1,8 @@
-// types
-import PropTypes from "prop-types";
-import { typeCartItem } from "@types/";
+// hooks
+import { useSelector, useDispatch } from "react-redux";
+// redux
+import { selectAllItem, cartActions } from "@src/features/cart/cartReducer";
+import { selectorTotal } from "@src/features/cart/cartSelector";
 // components
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { IoIosArrowDropright } from "react-icons/io";
@@ -8,21 +10,17 @@ import { IoClose } from "react-icons/io5";
 import EmptyCart from "@components/EmptyCart";
 import LinkButton from "@components/LinkButton";
 import { Link } from "react-router-dom";
-// utils
-import { getTotal } from "@src/utils";
 // style
 import style from "./Checkout.module.css";
 
-function Checkout({
-  items,
-  onDeleteItem,
-  onIncreaseItem,
-  onDecreaseItem,
-  onBuy,
-}) {
+function Checkout() {
+  const cart = useSelector((state) => selectAllItem(state));
+  const total = useSelector(selectorTotal);
+  const dispatch = useDispatch();
+
   return (
     <div className={style.checkoutPage}>
-      {Object.values(items).length === 0 ? (
+      {cart.length === 0 ? (
         <div className={style.emptyCartContainer}>
           <EmptyCart />
           <LinkButton className={style.shopBtn} to="/shop">
@@ -39,53 +37,55 @@ function Checkout({
             <div />
           </header>
           <ul className={style.productsList}>
-            {Object.values(items).map(
-              ({ item: { brand, name, price, id, image }, count }) => (
-                <li className={style.productItem} key={id}>
-                  <Link to={`/shop/${id}`} className={style.product}>
-                    <img
-                      className={style.product__image}
-                      src={image}
-                      alt="product image"
-                    />
-                    <span
-                      className={style.product__name}
-                    >{`${brand} ${name}`}</span>
-                  </Link>
-                  <div className={style.quantityContainer}>
-                    <button
-                      className={style.productItemBtn}
-                      type="button"
-                      onClick={() => onDecreaseItem(id)}
-                    >
-                      <BiMinus />
-                    </button>
-                    <span className={style.quantity}>{count}</span>
-                    <button
-                      className={style.productItemBtn}
-                      type="button"
-                      onClick={() => onIncreaseItem(id)}
-                    >
-                      <BiPlus />
-                    </button>
-                  </div>
-                  <span className={style.price}>{price * count} €</span>
-                  <div className={style.removeItemContainer}>
-                    <button
-                      className={`${style.removeItemBtn} ${style.productItemBtn}`}
-                      type="button"
-                      onClick={() => onDeleteItem(id)}
-                    >
-                      <IoClose />
-                    </button>
-                  </div>
-                </li>
-              )
-            )}
+            {cart.map(({ brand, name, price, id, image, count }) => (
+              <li className={style.productItem} key={id}>
+                <Link to={`/shop/${id}`} className={style.product}>
+                  <img
+                    className={style.product__image}
+                    src={image}
+                    alt="product image"
+                  />
+                  <span
+                    className={style.product__name}
+                  >{`${brand} ${name}`}</span>
+                </Link>
+                <div className={style.quantityContainer}>
+                  <button
+                    className={style.productItemBtn}
+                    type="button"
+                    onClick={() => dispatch(cartActions.decreaseItem(id))}
+                  >
+                    <BiMinus />
+                  </button>
+                  <span className={style.quantity}>{count}</span>
+                  <button
+                    className={style.productItemBtn}
+                    type="button"
+                    onClick={() => dispatch(cartActions.increaseItem(id))}
+                  >
+                    <BiPlus />
+                  </button>
+                </div>
+                <span className={style.price}>{price * count} €</span>
+                <div className={style.removeItemContainer}>
+                  <button
+                    className={`${style.removeItemBtn} ${style.productItemBtn}`}
+                    type="button"
+                    onClick={() => dispatch(cartActions.deleteItem(id))}
+                  >
+                    <IoClose />
+                  </button>
+                </div>
+              </li>
+            ))}
           </ul>
           <footer className={style.productListFooter}>
-            <span className={style.total}>Total: {getTotal(items)} €</span>
-            <LinkButton className={style.shopBtn} to="/" onClick={onBuy}>
+            <span className={style.total}>Total: {total} €</span>
+            <LinkButton
+              className={style.shopBtn}
+              to="/"
+              onClick={() => dispatch(cartActions.clear())}
+            >
               <span className={style.shopBtn__text}>Buy</span>
             </LinkButton>
           </footer>
@@ -94,13 +94,5 @@ function Checkout({
     </div>
   );
 }
-
-Checkout.propTypes = {
-  items: PropTypes.objectOf(typeCartItem).isRequired,
-  onDeleteItem: PropTypes.func.isRequired,
-  onIncreaseItem: PropTypes.func.isRequired,
-  onDecreaseItem: PropTypes.func.isRequired,
-  onBuy: PropTypes.func.isRequired,
-};
 
 export default Checkout;

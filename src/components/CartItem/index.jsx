@@ -1,26 +1,27 @@
 // types
 import PropTypes from "prop-types";
-import { typeProduct } from "@types/";
+// hooks
+import { useSelector, useDispatch } from "react-redux";
+// redux
+import { selectItemById, cartActions } from "@src/features/cart/cartReducer";
 // components
 import { CgCloseO } from "react-icons/cg";
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
 // style
 import style from "./CartItem.module.css";
 
-function CartItem({
-  item: { name, brand, price, image, id },
-  count,
-  onDelete,
-  onIncrease,
-  onDecrease,
-}) {
+function CartItem({ id }) {
+  const { name, brand, price, image, count } = useSelector((state) =>
+    selectItemById(state, id)
+  );
+  const dispatch = useDispatch();
   return (
     <div className={style.cartItem}>
       <button
         type="button"
         data-testid="delete"
         className={style.removeBtn}
-        onClick={() => onDelete(id)}
+        onClick={() => dispatch(cartActions.deleteItem(id))}
       >
         <CgCloseO className={style.removeIcon} />
       </button>
@@ -34,7 +35,7 @@ function CartItem({
           type="button"
           data-testid="decrease"
           className={style.actionBtn}
-          onClick={() => onDecrease(id)}
+          onClick={() => dispatch(cartActions.decreaseItem(id))}
         >
           <FiMinusCircle />
         </button>
@@ -42,7 +43,7 @@ function CartItem({
           type="button"
           data-testid="increase"
           className={style.actionBtn}
-          onClick={() => onIncrease(id)}
+          onClick={() => dispatch(cartActions.increaseItem(id))}
         >
           <FiPlusCircle />
         </button>
@@ -52,11 +53,7 @@ function CartItem({
 }
 
 CartItem.propTypes = {
-  item: typeProduct.isRequired,
-  count: PropTypes.number.isRequired,
-  onDelete: PropTypes.func.isRequired,
-  onIncrease: PropTypes.func.isRequired,
-  onDecrease: PropTypes.func.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default CartItem;

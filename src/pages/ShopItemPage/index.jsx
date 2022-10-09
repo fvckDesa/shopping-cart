@@ -2,21 +2,21 @@
 import { useState } from "react";
 import useAxios from "@hooks/useAxios";
 import useQuery from "@hooks/useQuery";
+import { useDispatch } from "react-redux";
+// redux actions
+import { cartActions } from "@src/features/cart/cartReducer";
 // components
 import { FaCartPlus } from "react-icons/fa";
 import { Ring } from "@uiball/loaders";
 // utils
 import { formatProductDescription, formatPrice } from "@src/utils";
 // style
-// types
-import PropTypes from "prop-types";
-// style
 import style from "./ShopItemPage.module.css";
 
 const { VITE_RAPID_API_KEY: API_KEY } = import.meta.env;
 const baseURL = "/static/";
 
-function ShopItemPage({ onAddItemToCart }) {
+function ShopItemPage() {
   const [isCompactDescription, setIsCompactDescription] = useState(true);
   const { brand } = useQuery();
   const { data, isLoading, error } = useAxios(baseURL + "productDetails.json", {
@@ -25,15 +25,18 @@ function ShopItemPage({ onAddItemToCart }) {
       "X-RapidAPI-Host": "klekt.p.rapidapi.com",
     },
   });
+  const dispatch = useDispatch();
 
   function handleClick() {
-    onAddItemToCart({
-      id: data.id,
-      name: data.name,
-      brand,
-      price: formatPrice(data.conditions[0].minPrice),
-      image: data.assets[0].asset.preview,
-    });
+    dispatch(
+      cartActions.addItem({
+        id: data.id,
+        name: data.name,
+        brand,
+        price: formatPrice(data.conditions[0].minPrice),
+        image: data.assets[0].asset.preview,
+      })
+    );
   }
 
   return (
@@ -77,9 +80,5 @@ function ShopItemPage({ onAddItemToCart }) {
     </div>
   );
 }
-
-ShopItemPage.propTypes = {
-  onAddItemToCart: PropTypes.func.isRequired,
-};
 
 export default ShopItemPage;
