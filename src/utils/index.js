@@ -30,7 +30,7 @@ export function countCartItems(items) {
 
 export function getTotal(items) {
   return Object.values(items).reduce(
-    (acc, { item, count }) => acc + item.price * count,
+    (acc, { price, count }) => acc + price * count,
     0
   );
 }

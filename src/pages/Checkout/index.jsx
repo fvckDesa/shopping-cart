@@ -1,6 +1,3 @@
-// types
-import PropTypes from "prop-types";
-import { typeCartItem } from "@types/";
 // components
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { IoIosArrowDropright } from "react-icons/io";
@@ -8,21 +5,24 @@ import { IoClose } from "react-icons/io5";
 import EmptyCart from "@components/EmptyCart";
 import LinkButton from "@components/LinkButton";
 import { Link } from "react-router-dom";
+// context
+import { useCartContext } from "@src/contexts/cartContext";
 // utils
 import { getTotal } from "@src/utils";
 // style
 import style from "./Checkout.module.css";
 
-function Checkout({
-  items,
-  onDeleteItem,
-  onIncreaseItem,
-  onDecreaseItem,
-  onBuy,
-}) {
+function Checkout() {
+  const {
+    cartItems,
+    removeCartItem,
+    increaseCartItem,
+    decreaseCartItem,
+    clearCart,
+  } = useCartContext();
   return (
     <div className={style.checkoutPage}>
-      {Object.values(items).length === 0 ? (
+      {Object.values(cartItems).length === 0 ? (
         <div className={style.emptyCartContainer}>
           <EmptyCart />
           <LinkButton className={style.shopBtn} to="/shop">
@@ -39,8 +39,8 @@ function Checkout({
             <div />
           </header>
           <ul className={style.productsList}>
-            {Object.values(items).map(
-              ({ item: { brand, name, price, id, image }, count }) => (
+            {Object.values(cartItems).map(
+              ({ brand, name, price, id, image, count }) => (
                 <li className={style.productItem} key={id}>
                   <Link to={`/shop/${id}`} className={style.product}>
                     <img
@@ -56,7 +56,7 @@ function Checkout({
                     <button
                       className={style.productItemBtn}
                       type="button"
-                      onClick={() => onDecreaseItem(id)}
+                      onClick={() => decreaseCartItem(id)}
                     >
                       <BiMinus />
                     </button>
@@ -64,7 +64,7 @@ function Checkout({
                     <button
                       className={style.productItemBtn}
                       type="button"
-                      onClick={() => onIncreaseItem(id)}
+                      onClick={() => increaseCartItem(id)}
                     >
                       <BiPlus />
                     </button>
@@ -74,7 +74,7 @@ function Checkout({
                     <button
                       className={`${style.removeItemBtn} ${style.productItemBtn}`}
                       type="button"
-                      onClick={() => onDeleteItem(id)}
+                      onClick={() => removeCartItem(id)}
                     >
                       <IoClose />
                     </button>
@@ -84,8 +84,12 @@ function Checkout({
             )}
           </ul>
           <footer className={style.productListFooter}>
-            <span className={style.total}>Total: {getTotal(items)} €</span>
-            <LinkButton className={style.shopBtn} to="/" onClick={onBuy}>
+            <span className={style.total}>Total: {getTotal(cartItems)} €</span>
+            <LinkButton
+              className={style.shopBtn}
+              to="/"
+              onClick={() => clearCart()}
+            >
               <span className={style.shopBtn__text}>Buy</span>
             </LinkButton>
           </footer>
@@ -94,13 +98,5 @@ function Checkout({
     </div>
   );
 }
-
-Checkout.propTypes = {
-  items: PropTypes.objectOf(typeCartItem).isRequired,
-  onDeleteItem: PropTypes.func.isRequired,
-  onIncreaseItem: PropTypes.func.isRequired,
-  onDecreaseItem: PropTypes.func.isRequired,
-  onBuy: PropTypes.func.isRequired,
-};
 
 export default Checkout;

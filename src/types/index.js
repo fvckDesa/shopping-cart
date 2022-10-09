@@ -6,9 +6,5 @@ export const typeProduct = PropTypes.exact({
   brand: PropTypes.string,
   image: PropTypes.string,
   price: PropTypes.number,
-});
-
-export const typeCartItem = PropTypes.exact({
-  item: typeProduct,
   count: PropTypes.number,
 });

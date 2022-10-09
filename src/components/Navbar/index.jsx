@@ -8,15 +8,18 @@ import { Link } from "react-router-dom";
 import { FaShoppingCart, FaSearch } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import NavItem from "@components/NavItem";
+// context
+import { useCartContext } from "@contexts/cartContext";
 // utils
 import { debounce } from "@src/utils";
 // style
 import style from "./Navbar.module.css";
 
-function Navbar({ cartItemsCount, onCartClick, isCartOpen }) {
+function Navbar({ onCartClick, isCartOpen }) {
   const [lastPage, setLastPage] = useState("/");
   const navigate = useNavigate();
   const location = useLocation();
+  const { cartItems } = useCartContext();
 
   function redirectSearch(search = "") {
     if (!location.pathname.includes("/shop/search")) {
@@ -65,7 +68,7 @@ function Navbar({ cartItemsCount, onCartClick, isCartOpen }) {
           onClick={onCartClick}
         >
           <FaShoppingCart />
-          {cartItemsCount}
+          {Object.keys(cartItems).length}
         </button>
       </nav>
     </header>
@@ -73,7 +76,6 @@ function Navbar({ cartItemsCount, onCartClick, isCartOpen }) {
 }
 
 Navbar.propTypes = {
-  cartItemsCount: PropTypes.number.isRequired,
   onCartClick: PropTypes.func.isRequired,
   isCartOpen: PropTypes.bool.isRequired,
 };

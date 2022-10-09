@@ -1,5 +1,4 @@
 // types
-import PropTypes from "prop-types";
 import { typeProduct } from "@types/";
 // components
 import { Link } from "react-router-dom";

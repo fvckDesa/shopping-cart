@@ -5,18 +5,18 @@ import useQuery from "@hooks/useQuery";
 // components
 import { FaCartPlus } from "react-icons/fa";
 import { Ring } from "@uiball/loaders";
+// context
+import { useCartContext } from "@src/contexts/cartContext";
 // utils
 import { formatProductDescription, formatPrice } from "@src/utils";
-// style
-// types
-import PropTypes from "prop-types";
 // style
 import style from "./ShopItemPage.module.css";
 
 const { VITE_RAPID_API_KEY: API_KEY } = import.meta.env;
 const baseURL = "/static/";
 
-function ShopItemPage({ onAddItemToCart }) {
+function ShopItemPage() {
+  const { addCartItem } = useCartContext();
   const [isCompactDescription, setIsCompactDescription] = useState(true);
   const { brand } = useQuery();
   const { data, isLoading, error } = useAxios(baseURL + "productDetails.json", {
@@ -27,7 +27,7 @@ function ShopItemPage({ onAddItemToCart }) {
   });
 
   function handleClick() {
-    onAddItemToCart({
+    addCartItem({
       id: data.id,
       name: data.name,
       brand,
@@ -77,9 +77,5 @@ function ShopItemPage({ onAddItemToCart }) {
     </div>
   );
 }
-
-ShopItemPage.propTypes = {
-  onAddItemToCart: PropTypes.func.isRequired,
-};
 
 export default ShopItemPage;

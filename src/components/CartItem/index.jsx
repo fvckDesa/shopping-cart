@@ -1,26 +1,23 @@
 // types
-import PropTypes from "prop-types";
 import { typeProduct } from "@types/";
 // components
 import { CgCloseO } from "react-icons/cg";
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
+// context
+import { useCartContext } from "@contexts/cartContext";
 // style
 import style from "./CartItem.module.css";
 
-function CartItem({
-  item: { name, brand, price, image, id },
-  count,
-  onDelete,
-  onIncrease,
-  onDecrease,
-}) {
+function CartItem({ item: { name, brand, price, image, id, count } }) {
+  const { removeCartItem, increaseCartItem, decreaseCartItem } =
+    useCartContext();
   return (
     <div className={style.cartItem}>
       <button
         type="button"
         data-testid="delete"
         className={style.removeBtn}
-        onClick={() => onDelete(id)}
+        onClick={() => removeCartItem(id)}
       >
         <CgCloseO className={style.removeIcon} />
       </button>
@@ -34,7 +31,7 @@ function CartItem({
           type="button"
           data-testid="decrease"
           className={style.actionBtn}
-          onClick={() => onDecrease(id)}
+          onClick={() => decreaseCartItem(id)}
         >
           <FiMinusCircle />
         </button>
@@ -42,7 +39,7 @@ function CartItem({
           type="button"
           data-testid="increase"
           className={style.actionBtn}
-          onClick={() => onIncrease(id)}
+          onClick={() => increaseCartItem(id)}
         >
           <FiPlusCircle />
         </button>
@@ -53,10 +50,6 @@ function CartItem({
 
 CartItem.propTypes = {
   item: typeProduct.isRequired,
-  count: PropTypes.number.isRequired,
-  onDelete: PropTypes.func.isRequired,
-  onIncrease: PropTypes.func.isRequired,
-  onDecrease: PropTypes.func.isRequired,
 };
 
 export default CartItem;
